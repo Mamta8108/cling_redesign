@@ -1,0 +1,32 @@
+.hero {
+  background: linear-gradient(120deg, #a62a25, #d6392f);
+  color: #fff;
+  padding: 5rem 0 7rem;
+}
+
+.hero__title {
+  font-size: clamp(2.2rem, 5.5vw, 4rem);
+  font-weight: 700;
+  max-width: 40rem;
+}
+
+.hero__text {
+  max-width: 36rem;
+  font-size: 1.1rem;
+  margin: 1.25rem 0 2rem;
+}
+
+.hero__actions {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.hero__link {
+  font-weight: 500;
+}
+
+@media (max-width: 48rem) {
+  .hero { padding: 3rem 0 6rem; }
+}
