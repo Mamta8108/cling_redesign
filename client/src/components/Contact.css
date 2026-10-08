@@ -1,0 +1,43 @@
+.contact {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 3rem;
+}
+
+.form { display: grid; gap: 1rem; align-content: start; }
+
+.field { display: grid; gap: 0.3rem; }
+.field label { font-weight: 500; font-size: 0.92rem; }
+
+.field input,
+.field textarea {
+  font: inherit;
+  padding: 0.7rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 0.4rem;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.field input[aria-invalid="true"],
+.field textarea[aria-invalid="true"] { border-color: var(--red); }
+
+.field__error { color: var(--red); font-size: 0.88rem; }
+
+.form .btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.form__feedback { min-height: 1.5rem; font-weight: 600; }
+.form__feedback--success { color: #1a7f45; }
+.form__feedback--error { color: var(--red); }
+
+.contact__info { display: grid; gap: 1rem; align-content: start; }
+.contact__info p, .contact__info address {
+  font-style: normal;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.contact__info strong { display: block; color: var(--ink); }
+
+@media (max-width: 48rem) {
+  .contact { grid-template-columns: 1fr; gap: 2rem; }
+}

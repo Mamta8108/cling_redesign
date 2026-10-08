@@ -55,3 +55,16 @@ export const clients = [
   { name: "FDX Group" },
   { name: "Kalco Green Building Solutions" },
 ];
+
+export const contact = {
+  phone: "+91 82644 69132",
+  phoneHref: "tel:+918264469132",
+  email: "info@clinginfotech.com",
+};
+
+export const offices = [
+  { city: "Noida (head office)", address: "Wave Galleria, Wave City, NH-24, Uttar Pradesh 201015" },
+  { city: "Pune", address: "Raj Square, Pashan-Sus Road, Maharashtra 411021" },
+  { city: "Moradabad", address: "Avas Vikas, Buddhi Vihar, Uttar Pradesh 244001" },
+  { city: "Conakry, Guinea", address: "Lanbandji, Republic of Guinea" },
+];

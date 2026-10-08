@@ -2,15 +2,6 @@ import { reviews } from "../data/content";
 import "./Testimonials.css";
 import getInitials from "../utils/getInitials";
 
-function getInitials(name) {
-  return name
-    .split(" ")
-    .map((part) => part[0])
-    .slice(0, 2)
-    .join("")
-    .toUpperCase();
-}
-
 export default function Testimonials() {
   return (
     <section id="reviews" className="section section--tint">
