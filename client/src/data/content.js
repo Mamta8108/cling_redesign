@@ -20,14 +20,6 @@ export const services = [
   { title: "3D animation", text: "Logo animations and advertisement videos for your brand." },
 ];
 
-export const clients = [
-  "Verified Property Intelligence", "MAT Commercial Vehicle Products", "Seven Seas Lines",
-  "SRS", "The Sunshine Immigration Consultancy", "Jumpie",
-  "Delhi Public International School", "Indian Racing Festival", "Seymour",
-  "Omsons India Handicrafts", "Orlo Now", "Solidarity Investment Managers",
-  "Unity Homeland", "FDX Group", "Kalco Green Building Solutions",
-];
-
 export const countries = [
   "India", "Saudi Arabia", "South Africa", "United States", "Oman", "UAE",
   "Singapore", "Ireland", "Mauritius", "Australia", "United Kingdom", "Spain",
@@ -44,4 +36,22 @@ export const team = [
   { name: "Ashi Gupta", role: "Managing Director" },
   { name: "Akshay Gupta", role: "CEO" },
   { name: "Numukeh Tunkara", role: "Director" },
+];
+
+export const clients = [
+  { name: "Verified Property Intelligence" },
+  { name: "MAT Commercial Vehicle Products" },
+  { name: "Seven Seas Lines" },
+  { name: "SRS" },
+  { name: "The Sunshine Immigration Consultancy" },
+  { name: "Jumpie" },
+  { name: "Delhi Public International School" },
+  { name: "Indian Racing Festival" },
+  { name: "Seymour" },
+  { name: "Omsons India Handicrafts" },
+  { name: "Orlo Now" },
+  { name: "Solidarity Investment Managers" },
+  { name: "Unity Homeland" },
+  { name: "FDX Group" },
+  { name: "Kalco Green Building Solutions" },
 ];
