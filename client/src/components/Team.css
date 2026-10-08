@@ -1,0 +1,40 @@
+.team {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+}
+
+.member {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.member__avatar {
+  width: 6rem;
+  height: 6rem;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.member__avatar--initials {
+  display: grid;
+  place-items: center;
+  background: var(--red);
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.member__name { font-size: 1.1rem; }
+.member__role { color: var(--muted); font-size: 0.92rem; }
+
+@media (max-width: 62rem) {
+  .team { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 30rem) {
+  .team { grid-template-columns: 1fr; }
+}

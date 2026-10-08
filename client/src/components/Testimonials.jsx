@@ -1,5 +1,6 @@
 import { reviews } from "../data/content";
 import "./Testimonials.css";
+import getInitials from "../utils/getInitials";
 
 function getInitials(name) {
   return name
