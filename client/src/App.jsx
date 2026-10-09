@@ -3,24 +3,26 @@ import Hero from "./components/Hero";
 import Stats from "./components/Stats";
 import Services from "./components/Services";
 import Clients from "./components/Clients";
-import Testimonial from "./components/Testimonials";
+import Testimonials from "./components/Testimonials";
 import Team from "./components/Team";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
-export default function App(){
+export default function App() {
   return (
     <>
-    <Navbar />
-      <main id="top" style={{ height: "200vh" }}>
-        <h1>Test content</h1>
-         <Hero />
+      <a href="#main" className="skip-link">Skip to content</a>
+      <Navbar />
+      <main id="main">
+        <Hero />
         <Stats />
         <Services />
         <Clients />
-        <Testimonial />
-       <Team />
-       <Footer/>
+        <Testimonials />
+        <Team />
+        <Contact />
       </main>
+      <Footer />
     </>
-  )
+  );
 }

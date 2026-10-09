@@ -10,9 +10,10 @@ export default function Navbar(){
   return (
     <header className="navbar">
       <div className="container navbar__inner">
-        <a href="#top" className="navbar__logo">
-          Cling<span>Info Tecch</span>
-        </a>
+ <a href="#top" className="navbar__logo">
+  Cling{" "}
+  <span>Info Tech</span>
+</a>
 
        <button
         className="navbar__toggle"
